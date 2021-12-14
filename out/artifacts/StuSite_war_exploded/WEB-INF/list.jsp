@@ -31,8 +31,8 @@
                 <td>${st.name}</td>
                 <td>${st.family}</td>
                 <td>${st.college}</td>
-                <td><a href="/edit.do?id=${st.id}">Click</a></td>
-                <td><a href="/delete.do?id=${st.id}">Click</a></td>
+                <td><a href="<c:url value="/edit.do?id=${st.id}"/>">Click</a></td>
+                <td><a href="<c:url value="/delete.do?id=${st.id}" />">Click</a></td>
             </tr>
         </c:forEach>
 

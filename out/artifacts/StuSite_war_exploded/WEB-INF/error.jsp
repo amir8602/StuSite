@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Amir
@@ -13,5 +14,7 @@
 <body style="background-color: rgba(7,60,108,0.63) ; color: #021f80 ; font-weight: bolder">
     OOPS !!! <br/>
     Error
+    <br/>
+    <a href="<c:url value="/index.jsp"/> ">Go Home</a>
 </body>
 </html>
