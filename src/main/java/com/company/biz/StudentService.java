@@ -16,4 +16,19 @@ public class StudentService {
         StudentData data = new StudentData();
         return data.getAll();
     }
+
+    public void delete(Integer id) throws Exception {
+        StudentData data = new StudentData();
+        data.delete(id);
+    }
+
+    public Student getStudent(Integer id) throws Exception {
+        StudentData data = new StudentData();
+        return data.getStudent(id);
+    }
+
+    public void update(Student student) throws Exception {
+        StudentData data = new StudentData();
+        data.update(student);
+    }
 }
